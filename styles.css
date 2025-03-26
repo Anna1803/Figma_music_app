@@ -9,8 +9,7 @@
     align-items: center; /* Align vertically */
 }
 
-/* Target all images */
-img {
+img:not(.eventsMap) {
     border-radius: 50%;
 }
 
