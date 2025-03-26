@@ -1,0 +1,35 @@
+* {
+    background-color: #E0B2E4;
+}
+
+.top_section {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    align-items: center; /* Align vertically */
+}
+
+img:not(.eventsMap) {
+    border-radius: 50%;
+}
+
+.welcomeSection {
+    /* display: flex; - Applied flex to the row and it's parent container "topSection" */
+    /* position: relative; */
+    justify-content: center;
+    align-items: center;
+}
+
+.recentArtistsRow { /* Check class naming */
+    display: flex;
+}
+
+.artist_pic {
+    max-width: 100px;
+    padding: 10px;
+}
+
+#user_avatar {
+    max-width: 150px;
+    height: 150px;
+}
